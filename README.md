@@ -8,7 +8,7 @@
 A simple Tcp chat app for multiple humans(or robots, depending on where your priorities are) that uses 
 ```tornado.websockets.WebsocketHandler``` which  allows for bidirectional communication between the browser and server.
 
-```tornado.websockets.WebsocketHandler``` implements the final version of the WebSocket protocol as defined in RFC 6455. 
+```tornado.websockets.WebsocketHandler``` implements the final version of the WebSocket protocol as defined in [RFC 6455](https://tools.ietf.org/html/rfc6455). 
 Certain browser versions (notably Safari 5.x) implemented an earlier draft of the protocol (known as “draft 76”) 
 and are not compatible with this module.
 Read the docs [here](https://www.tornadoweb.org/en/stable/websocket.html)
