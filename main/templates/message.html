@@ -1,0 +1,7 @@
+<div style="width:400px;line-height:50px;background-color: #000000bf;color: white;border: none;text-align: left;padding-left: 20px;border-radius: 10px;font-size: 18px;margin-bottom: 10px;" class="message" id="m{{ message['id'] }}">
+    <!-- link the message to the client message input/textarea -->
+    <span style="font-size: 10px; color: #cccccc; margin-bottom: 0px;">{% module linkify(message["un"]) %}</span><br>
+    <span style="font-size: 18px; color: #cccccc; margin-bottom: 0px;">{% module linkify(message["body"]) %}</span>
+    
+    
+</div>

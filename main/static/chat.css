@@ -1,0 +1,73 @@
+body {
+  background: white;
+  margin: 10px;
+  grid-template-columns: auto auto;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body,
+input {
+  font-family: sans-serif;
+  font-size: 10pt;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0;
+}
+
+td {
+  border: 0;
+  padding: 0;
+}
+
+#body {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+ 
+  
+}
+.rbody{
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+  color: white;
+  height: 100%;
+ 
+  width:40%;
+  right: 0px;
+}
+.rbody h1{
+  font-size: 35px;
+  position: absolute;
+  top:20%;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  left:20px;
+}
+.rbody h2{
+  font-weight:normal;
+  position: absolute;
+  top:30%;
+  letter-spacing: 2px;
+  right: 20px;
+  left:20px
+}
+.rbody h2 p{
+  font-size: 18px;
+  line-height: 25px;
+ 
+}
+#input {
+  margin-top: 0.5em;
+}
+
+
+#nav {
+  float: right;
+  z-index: 99;
+}
