@@ -32,7 +32,8 @@ Read the docs [here](https://www.tornadoweb.org/en/stable/websocket.html)
 
 ## Demo
 
- Here's a screen recording showing multiple clients(2 clients chatting with each other inreal time). I made it so that the server can handle 30 connections.
+Here's a screen recording showing multiple clients(2 clients chatting with each other inreal time). I made it so that the server can handle 30 connections.
+It also saves the chats in a chatlog file
  
 ![demo](https://user-images.githubusercontent.com/39020723/81034191-000cbb00-8e9f-11ea-9999-3cdbe37da8de.gif)
 
