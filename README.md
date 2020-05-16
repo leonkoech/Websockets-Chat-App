@@ -37,4 +37,6 @@ It also saves the chats in a chatlog file
  
 ![demo](https://user-images.githubusercontent.com/39020723/81034191-000cbb00-8e9f-11ea-9999-3cdbe37da8de.gif)
 
+## License
 
+This project is under the [mit](#) license
